@@ -27,13 +27,43 @@
                     a job by the time he graduates.
                 </p>
             </section>
-            <section class="links">
-                <h2 class="links">Links</h2>
-                <ul>
-                    <li><a href="https://github.com/lemangomeister">Github</a></li>
-                    <li><a href="mailto:m1guinto@ucsd.edu">Email</a></li>
-                </ul>
+            <section>
+                <fieldset>
+                    <legend><h2 class="links">Links</h2></legend>
+                    <ul>
+                        <li><a href="https://github.com/lemangomeister">Github</a></li>
+                        <li><a href="mailto:m1guinto@ucsd.edu">Email</a></li>
+                    </ul>
+            </fieldset>
             </section>
+            <hr>
+            <label for="project-select">Select a Project</label>
+            <br>
+            <select id="project-select">
+                <optgroup label="School Projects">
+                    <option>catHead</option>
+                    <option>Forward Error Correction Processor</option>
+                    <option>File Compressor</option>
+                </optgroup>
+            </select>
+            <section>
+                <details>
+                    <summary>Project 1: catHead</summary>
+                    A video game project made during AP Computer Science high school class
+                </details>
+                <details>
+                    <summary>Project 2: Forward Error Correction Processor</summary>
+                    Three-program specific purpose processor created using SystemVerilog, Python, and modified form of MIPS
+                </details>
+                <details>
+                    <summary>Project 3: File Compressor</summary>
+                    File compressor implemented in C++ that uses Huffman coding to reduce file sizes containing ASCII items 
+                </details>
+            </section>
+            <label for="advice">Give me some advice</label>
+            <br>
+            <textarea id="advice" name="advice" rows="5" cols="35">How can I improve myself...?
+            </textarea>
         </main>
         <footer>Mico Guinto 2023</footer>
     </body>
